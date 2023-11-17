@@ -1,8 +1,8 @@
-
-#Adding of two Integer
+#adding two floating point
 def adder(a,b):
     return a+b
-a="Suman"
-b="De"
+a=5.5
+b=2.5
 
 print(adder(a,b))
+
