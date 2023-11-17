@@ -1,4 +1,7 @@
 S = 'mumbai'
+unicode_sum = 0
 
 for char in S:
-    print(f"Character: {char}, Unicode Code Point: {ord(char)}")
+    unicode_sum += ord(char)
+
+print(f"The sum of Unicode code points in '{S}' is: {unicode_sum}")
